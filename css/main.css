@@ -154,6 +154,14 @@ nav a.active {
     line-height:1.5;
     margin-top:2rem;
 }
+.section__copy {
+    color:var(--color-black);
+    text-align:center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight:ligher;
+    line-height:1.5;
+    margin-top:3rem;
+}
 /* list items */
 
 .list {
@@ -183,8 +191,7 @@ nav a.active {
 .list-item__title {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: var(--color-black);
 }
 
@@ -200,7 +207,7 @@ nav a.active {
 }
 .list--experience .list-item {
     border: none;
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1rem 0rem 2rem 2rem;
     position: relative;
 }
 
@@ -225,12 +232,39 @@ nav a.active {
     top: 50%;
 }
 
-
-.photo-stack {
+.link--email {
     position:relative;
 }
-.photo-stack li {
-    background:green;
+
+
+.card-slider {
+    margin-top:1.5rem;
+    margin-bottom:5rem;
+    cursor:pointer;
+}
+.card-slider:active {
+    cursor:grabbing;
+}
+.card {
+    width:300px;
+    
+}
+.card figure {
+    background: var(--color-tame);
+    background:white;
+    border:solid 5px white;
+    object-fit:cover;
+}
+.card figcaption {
+    padding:.5rem;
+    font-family: 'Space Mono', sans-serif;
+    font-size:.6rem;
+    line-height:1.5;
+}
+.card img,
+.card video {
+width:100%;
+height:100%;
 }
 /* media queries */
 
